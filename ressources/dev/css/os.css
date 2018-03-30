@@ -1,0 +1,620 @@
+/* general */
+body, html, #base,#head-os {
+	min-width: 690px;
+}
+div, p, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: block;
+}
+/* diplsays */
+.fullScreen {
+	top: 0!important; right: 0!important; bottom: 0!important; left: 0!important;
+	width: auto!important;height: auto!important;
+}
+.fullHeight {
+	height: 100%;
+}
+.fullwidth {
+	width: 100%;
+}
+.size-60p {
+	width: 60%;
+	height: 60%;
+}
+.nonVis {
+	visibility: hidden;
+}
+/* transparancy */
+.opacity-50p {
+	opacity: 0.5;
+}
+
+/* color scheme */
+.color-FFF {
+	background-color: #FFF;
+}
+.color-branding {
+	color: #517BE7;
+}
+.color-border-branding {
+	border-color: #517BE7;
+}
+.color-backround-white {
+	background-color: #FFF;
+}
+/* ALIGNS */
+.centered {
+	position: absolute;
+ 	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.isleft {
+	float: left;
+}
+.isright {
+	float: right;
+}
+/* Margin and Paddings */
+.space-right-05e{
+	margin-right: 0.5em;
+}
+/* INDEX */
+.z-1000 {
+	z-index: 1000;
+}
+.z-1001 {
+	z-index: 1001;
+}
+.z-top {
+	z-index: 100000;
+}
+/* font stuff */
+.fontSize-large {
+	font-size: 2em;
+}
+#base.base {
+	font-family: 'Ubuntu', monospace;
+}
+/* borders and tables */
+.no-border-bottom {
+	border-bottom:none;
+}
+/* fancy */
+.blur-transparent {
+	width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #FFF;
+    opacity: 0.5;
+    z-index: 0;
+    padding-bottom: 1px;
+}
+.osBackgroundImage {
+	background-image: url("/ressources/dev/images/explorer-bDefault.jpg");        
+    background-repeat:   no-repeat;
+}
+.background-contains {
+	background-size: contain;
+};
+/* clickables */
+.buttonIcon {
+	cursor: pointer;
+}
+/* elements */
+#head.fixed{
+	z-index: 100000;
+}
+#head-os {
+	position: fixed;
+    z-index: 99999;
+    background-color: transparent;
+    border-top: 0.25em solid #517BE7;
+
+    width: 100%;
+    top: 0;
+    height: 2em;
+}
+#osBar {
+	padding: 0 0.5em;
+}
+#osBar .buttonIcon {
+	width: 1.75em;
+    font-size: 1em;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    background-color: transparent;
+    width: 2.5em;
+}
+#osBar .buttonIcon:hover {
+	color: #FFF;
+}
+#osBar .barButton  {
+	text-align: center;
+	text-align: center;
+	color: #444;
+	height: 100%;
+	margin: 0 0 0 0.25em;
+}
+#osBar .buttonString {
+    max-height: 100%;
+    font-weight: bold;
+    height: 2.5em;
+}
+#osBar .buttonString p{
+	margin: 0;
+}
+#osBar .buttonIcon.active {
+    background-color: #FFF;
+    color: #517BE7;
+}
+#osBar .buttonIcon.openWindow {
+    background-color: #FFF;
+    color: #444;
+}
+#osBar .buttonString .dualLine{
+    font-size: 90%;
+    line-height: 1.4em;
+    font-size: 0.7em;
+}
+#osBar .buttonString .oneLine{
+    font-size: 1.25em;
+    line-height: 1.5em;
+}
+#osBar .logo {
+	width: auto;
+    max-height: 1.75em;
+    margin: 0.125em 1em 0 0.5em;
+}
+#osBarRight, #osBarRight .barButton {
+	float: right;
+}
+#osBarLeft, #osBarLeft .barButton {
+	float:left;
+}
+.buttonIcon .fa {
+	transform: translate(0, 25%);
+}
+
+/* normal windows */
+.top-bar {
+	top: 2.25em;
+}
+.window-container{
+	position: absolute;
+	background-color: #FFF;
+ 	top: 10%;
+  	left: 10%;
+
+  	border: 1px solid #444;
+  	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+	z-index: 500;
+}
+.window-container.active {
+	-webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.4);
+	
+	border-color: #517BE7;
+	z-index: 510;
+}
+.window-type-explorer {
+	
+}
+.window-container.containerTypeConfig {
+	width: 700px;
+}
+.stretchbox {
+	position: absolute;
+	background-color: transparent;
+	z-index: 509;
+}
+.stretch-n{
+	height:10px;
+	top:0;
+	right:10px;
+	left: 10px;
+	cursor: n-resize;
+}
+.stretch-ne{
+	right:0px;
+	top: 0px;
+	width: 10px;
+	height: 10px;
+	cursor: ne-resize;
+}
+.stretch-e{
+	width:10px;
+	top:10px;
+	right:0;
+	bottom: 10px;
+	cursor: e-resize;
+}
+.stretch-se{
+	right:0px;
+	bottom: 0px;
+	width: 10px;
+	height: 10px;
+	cursor: se-resize;
+}
+.stretch-s{
+	height:10px;
+	bottom:0;
+	right:10px;
+	left: 10px;
+	cursor: s-resize;
+}
+.stretch-sw{
+	left:0px;
+	bottom: 0px;
+	width: 10px;
+	height: 10px;
+	cursor: sw-resize;
+}
+.stretch-w{
+	width:10px;
+	top:10px;
+	left:0;
+	bottom: 10px;
+	cursor: w-resize;
+}
+.stretch-nw{
+	left:0px;
+	top: 0px;
+	width: 10px;
+	height: 10px;
+	cursor: nw-resize;
+}
+.window-viewport{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 501;
+}
+.window-viewport i.fa {
+	font-size: 16px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #555;
+}
+.window-viewport i.fa.not-possible {
+    color: #BBB;
+}
+.window-viewport .loading-animation {
+	display: table;
+    width: 100%;
+    height: 100%;
+}
+.window-viewport .loading-animation .fullyCentered{
+	height: 60px;
+    line-height: 60px;
+    width: 60px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;	
+}
+.window-viewport .loading-animation .fullyCentered i.fa {
+    font-size: 32px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    color: #555;
+}
+.window-bar-top {
+	clear: both;
+	cursor: pointer;
+	margin: 0 0 5px 5px;
+}
+.window-bar-top .icon i{
+	color: #517BE7;
+}
+.window-bar-top .title {
+	margin-left: 20px;
+}
+.window-bar-top .buttons {
+	width: 90px;
+	position: absolute;
+    top: -5px;
+    right: 0px;
+}
+.window-bar-top .buttons div, .window-bar-nav .buttons div{
+	display: inline-block;
+	padding: 5px
+}
+.window-bar-top .buttons.isright div:hover {
+	background-color: #DDD;
+	cursor: pointer;
+}
+.window-bar-nav {
+	position: relative;
+	line-height: 1;
+	height: 30px;
+}
+.window-bar-nav .buttons {
+	width: 60px;
+	float: left;
+}
+.window-bar-nav .a-container {
+	position: absolute;
+	top: 5px;
+	bottom: 5px;
+}
+.window-bar-nav .map-container {
+	left: 80px;
+	right: 200px;
+}
+.window-bar-nav div .input{
+	border: 1px solid #BBB;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.window-bar-nav .map-container .input{
+	border: 1px solid #BBB;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding-left: 10px;
+}
+.window-bar-nav .map-container .input p {
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0 2px;
+	float: left;
+}
+.window-bar-nav .map-container .input p .fa, .window-bar-nav .a-container .a-box .fa, .a-container .fa {
+	font-size: 12px;
+	width: auto;
+}
+.window-bar-nav .a-container .a-box {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    height: 18px;
+
+    line-height: 20px;
+    text-align: center;
+    
+    border: 1px solid #AAA;
+}
+.window-bar-nav .a-container .a-box:hover {
+	background-color: #D5DFF9;
+	border-color: #517BE7;
+}
+.window-bar-nav .a-container .a-box .fa {
+ 	position: absolute;
+    top: 4px;
+    left: 4px;
+ }
+.window-bar-nav .a-container .a-box.right-box {
+	right: 0;
+}
+.window-bar-nav .a-container .a-box.left-box {
+	left: 0;
+}
+.window-bar-nav .search-container {
+	width: 180px;
+	right: 10px;
+}
+.window-bar-nav .search-container .search-box {
+	border: none;
+    height: 100%;
+    padding: 0 0 0 25px;
+    margin: 0;
+}
+.window-bar-nav .search-container .search-box:active, .window-bar-nav .search-container .search-box:hover, .window-bar-nav .search-container .search-box:focus {
+	border: none; outline: none;
+}
+.window-board {
+	position: absolute;
+    top: 60px;
+    bottom: 25px;
+    left: 10px;
+    right: 10px;
+}
+.window-board.columnSingle .column-left{
+	display: none;
+}
+.window-board .column-left {
+	    display: inline-block;
+    border-right: 1px solid #CCC;
+    width: 200px;
+    height: 100%;
+    padding: 10px;
+}
+.window-board .column-right{
+	position: absolute;
+    left: 220px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.window-board.columnSingle .column-right {
+	left: 0px!important;
+}
+.window-board.columnSingle .content-info-headline {
+	font-weight: 500;
+    color: #517be7;
+    margin: 0.25em 0;
+    text-align: center;
+}
+.window-board.columnSingle .headline{
+	font-weight: 400;
+    font-size: 100%;
+    margin: 0.1em 1em 0.1em 0;
+    float: left;
+    line-height: 1em;
+}
+.window-board.columnSingle .content-container  .hr{
+	margin: 0;
+    height: 1px;
+    border: none;
+    background-color: #AAA;
+    margin: 0.6em 0 0 0;
+}
+.window-board .content-container .sub {
+	margin: 0.5em 0 0.5em 1.5em;
+}
+.window-board .content-container .sub .field-row {
+	height: 2em;
+    position: relative;
+    width: 100%;
+}
+.window-board .content-container .sub .field-row .info {
+	display: inline-block;
+    line-height: 2em;
+    height: 2em;
+    font-size: 0.8em;
+    font-weight: 400;
+    margin-right: 20px;
+    color: #666;
+}
+.window-board .content-container .sub .field-row .container-input {
+	position: absolute;
+    right: 0;
+    left: 150px;
+    display: inline-block;
+}
+.window-board .content-container .sub .field-row .container-input .input-text{
+    margin: 0;
+    line-height: 2em;
+    padding: 0;
+    font-weight: 600;
+    color: #444;
+    padding: 0 0.5em;
+    width: 95%;
+}
+.window-bar-bottom {
+	position: absolute;
+	left: 0; right: 0; bottom: 0; height: 25px;
+}
+.window-bar-bottom .info-view-container {
+	position: absolute;
+	right: 5px;
+	top: 0;
+	bottom: 0;
+	width: 80px;
+}
+.window-bar-bottom .info-elements , .window-bar-bottom .info-selected{
+	display: inline-block;
+	margin: 0 0 0 10px;
+}
+.window-bar-bottom p {
+ 	font-size: 12px;
+    line-height: 25px;
+ }
+.window-bar-bottom .info-view-container div {
+	display: inline-block;
+	border: 1px solid #FFF;
+    height: 22px;
+    margin-bottom: 1px;
+    line-height: 22px;
+    width: 24px;
+    text-align: center;
+}
+.window-bar-bottom .info-view-container div.active {
+	border-color: #517BE7;
+	color: #517BE7;
+}
+.window-bar-bottom i.fa {
+	font-size: 14px;
+	width: 20px;
+	height: auto;
+	color: inherit;
+}
+.avatar-pic-box {
+	position: relative;
+    display: inline-block;
+    width: 270px;
+}
+
+.avatar-builder {
+    -webkit-box-shadow: inset 0px 0px 15px 1px rgba(68,68,68,1);
+    -moz-box-shadow: inset 0px 0px 15px 1px rgba(68,68,68,1);
+    box-shadow: inset 0px 0px 15px 1px rgba(68,68,68,1);
+    position: relative;
+    background-size: contain;
+    background-image: url("http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/37/37a144d35917ca738525cd93b17ea03fed6cf111_full.jpg");
+}
+.avatar-builder.avatar-full {
+	width: 180px;
+    height: 180px;
+}
+.avatar-builder.avatar-medium {
+	width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.avatar-builder.avatar-mini {
+	width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+}
+.column-left .containerFolderEntry {
+    line-height: 20px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+    margin: 2px 0;
+}
+.column-left .containerFolderEntry p{
+	margin: 0;
+    display: inline-block;
+}
+.column-left .containerFolderEntry .iconFolder{
+	width: 20px;
+}
+.column-left .containerFolderEntry .iconFolder .fa{
+	font-size: 12px;
+}
+.column-left .containerFolderEntry .textFolder{
+	display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+}
+.column-left .containerFolder {
+    margin-left: 10px;
+}
+.column-right .container-item {
+	display: inline-block;
+	height: 75px;
+	width: 100px;
+	text-align: center;
+	margin: 10px 5px;
+	cursor: pointer;
+}
+.column-right .container-item .icon {
+	height: 46px;
+	line-height: 46px;
+	text-align: center;
+}
+.column-right .container-item .icon .fa{
+	font-size: 48px;
+	width: auto;
+	height: auto;
+}
+.column-right .container-item .name {
+	line-height: 18px;
+    font-size: 16px;
+}

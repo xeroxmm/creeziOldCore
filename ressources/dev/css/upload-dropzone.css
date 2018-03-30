@@ -1,0 +1,231 @@
+#page-content-upload {
+	display: none;
+	position: fixed;
+	top: 4em;
+	left: 90px;
+	right: 0;
+	bottom: 0;
+	overflow-y: scroll;
+	background-color: #FFF;
+	z-index: 190;
+}
+#upload-area {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 200;
+	display: none; 
+	
+}
+#uploading-area {
+	display: none; 
+	z-index: 200;
+	position: absolute;
+	top: 2em;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+#upload-area .border-dashed {
+	margin: 4em;
+}
+#upload-area .flex-column {
+	align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#upload-area .font-10 {
+	font-size: 10em;
+}
+#upload-area .btn-close {
+	padding: 0.5em 1em;
+    font-size: 1.5em;
+    width: auto!important;
+    height: auto!important;
+}
+#uploading-area h4 {
+	width: 480px;
+	margin: 0 auto;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+	padding: 0 0 0.5em 0;
+}
+#controls-mediaBox {
+	width: 480px;
+	margin: 0 auto 3pt;
+	font-size: 1.5em;
+	padding: 0.5em;
+	text-align: center;
+	background-color: #517BE7;
+	color: #FFF;
+	border: 1px solid #517BE7;
+}
+#controls-mediaBox:hover {
+	cursor: pointer;
+}
+#mediaBox {
+	max-width: 700px;
+	min-width: 300px;
+	width: 100%;
+	margin: 0 auto;
+}
+#mediaBox .an-element {
+	min-height: 8em;
+	width: 100%;
+	padding: 0.5em 0;
+	overflow: hidden;
+}
+#mediaBox .an-element img {
+	height: 7em;
+	width: auto;
+	max-width: 12em;
+	border: 2px solid #888A85;
+	margin: 0 auto;
+}
+#mediaBox .an-element .theControls .theName {
+	height: 3.5em;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#mediaBox .an-element .theControls .btn-remove {
+	margin: 0;
+}
+#mediaBox .thePic {
+	float: left;
+	height: 7em;
+	width: 14em;
+	text-align: center;
+}
+.bar {
+	position: relative;
+    width: 100%;
+    height: 2em;
+    
+    border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+    
+    border: 1px solid #AAA;
+}
+.bar-upload {
+	background-color: lightgreen;
+}
+.bar .progress {
+	overflow: hidden;
+    height: 100%;
+    background-color: #f5f5f5;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+.btn-remove {
+	color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    position: relative;
+}
+.btn-success {
+	color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    position: relative;
+}
+.btn-error {
+	color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    position: relative;
+}
+.btn-pending {
+	border: 1px solid #AAA;
+}
+.file-dropable {
+	border-color: #888A85!important;
+}
+.file-dropable.active {
+	border-color: #517BE7!important;
+}
+.is-blue-border {
+	border-color: #517BE7!important;
+}
+.is-blue-text {
+	color: #517BE7;
+}
+.border-dashed {
+	border-radius: 30px 30px 30px 30px;
+	-moz-border-radius: 30px 30px 30px 30px;
+	-webkit-border-radius: 30px 30px 30px 30px;
+	border: 5px dashed #000000;
+}
+.full-100 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.visible {
+	display:block!important;
+}
+.labelSpacer {
+	width: 100px;
+    float: left;
+    height: 23px;
+    line-height: 23px;
+}
+.titleBox input, .titleBox textarea {
+	width: 350px;
+}
+.uploadSaveIndicator {
+	float: right;
+	width: 20px;
+	height: 20px;
+	margin: 1.5px 0 1.5px 10px;
+}
+
+.uploadTextSuccess {
+	font-size: 125%;
+	text-align: center;
+}
+.tagBox {
+    float: left;
+    margin: 2px 5px 3px 0;
+    background-color: #999;
+    padding: 2px 5px;
+    color: #FFF;
+    border-radius: 10px;
+}
+.tagBox .delete {
+	margin-left: 5px;
+}
+#controls-mediaBox.disabledA {
+	background-color: #AAA!important;
+}
+#controls-kindOfUpload {
+    width: 480px;
+    margin: 0 auto 0pt;
+    text-align: center;
+    border-bottom: 1px solid #888;
+}
+#controls-kindOfUpload .tab{
+    display: inline-block;
+    width: 45%;
+    background-color: #AAA;
+    margin: 0 10px;
+    cursor: pointer;ç
+}
+#controls-kindOfUpload .aHeadliner{
+	margin: 10px 0 0 0;
+}
+#controls-kindOfUpload .aHeadliner p {
+	text-align: center;
+	font-weight: bold;
+}

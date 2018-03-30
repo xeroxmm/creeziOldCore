@@ -1,0 +1,96 @@
+.img-container {
+	max-width: 100%;
+	position: relative;
+	max-height: 200px;
+	overflow: hidden;
+}
+.container-editID .img-container img {
+	width: 100%;
+}
+.grid-main-content{
+	background-color: #FFF;
+    float: left;
+    margin: 0 0.8% 0.5%;
+    width: 98.4%;
+    float: left;
+    overflow: hidden;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 0.1em solid #e1e2e9;
+}
+.xcReadMoreBox {
+	height: 2em;
+	background-color: #444;
+	width: 15em;
+	margin: 0.5em auto;
+}
+.xcReadMoreBox p {
+	color: #FFF;
+	font-weight: bold;
+	line-height: 2em;
+	text-align: center;
+}
+.xcReadMoreBox p a {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 1em;
+	text-decoration:none;
+}
+.justShadow {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,517be7+100&0+0,1+86 */
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(70,106,199,1) 86%, rgba(81,123,231,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(70,106,199,1) 86%,rgba(81,123,231,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(70,106,199,1) 86%,rgba(81,123,231,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#517be7',GradientType=0 ); /* IE6-9 */
+
+	height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.attached {
+	position: absolute;
+}
+.attached-bottom{
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.element-5px{
+	height: 5px;
+}
+.progress-bar {
+	background-color: #FFF;
+}
+.progress-bar .xcbar {
+	width: 2.5%;
+	background-color: #517BE7;
+}
+.opacity-30{
+	opacity: 0.3;
+	background-color: #444;
+}
+
+.fullScreen{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.index-99999{
+	z-index: 99999;
+}
+.index-99998{
+	z-index: 99998;
+}
+.image-description-box-area {
+	box-sizing: border-box;
+    width: 100%;
+    height: 5em;
+    border: none;
+    line-height: 1em;
+    font-size: 100%;
+}

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" promptOnRemoteOverwrite="CHECK_CONTENT" serverName="Zwickau (non Adult - xeroxmm) - 192.99.31.179" notifyRemoteChanges="true">
+    <serverData>
+      <paths name="192.168.178.132">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="CSGO_1">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Chemnitz (Adult - root) - 167.114.104.65">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Chemnitz (Adult - xeroxmm) - 167.114.104.65">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="GeGoLe">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="SchuelerCenter">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Shoutsmarket_SFTP">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ZPDesigns">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Zwickau (non Adult - root) - 192.99.31.179">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Zwickau (non Adult - xeroxmm) - 192.99.31.179">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/SITES/creezi.com" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/0" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/1" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/10" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/100" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/101" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/102" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/103" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/104" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/105" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/106" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/107" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/108" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/109" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/11" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/110" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/111" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/112" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/113" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/114" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/115" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/116" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/117" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/118" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/119" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/12" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/120" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/121" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/122" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/123" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/124" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/125" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/126" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/127" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/128" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/129" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/13" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/130" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/131" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/132" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/133" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/134" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/135" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/136" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/137" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/138" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/139" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/14" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/140" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/141" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/142" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/143" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/144" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/145" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/146" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/147" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/148" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/149" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/15" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/150" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/151" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/152" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/153" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/154" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/155" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/156" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/157" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/158" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/159" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/16" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/160" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/161" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/162" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/163" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/164" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/165" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/166" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/167" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/168" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/169" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/17" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/170" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/171" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/172" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/173" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/174" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/175" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/176" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/177" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/178" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/179" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/18" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/180" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/181" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/182" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/183" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/184" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/185" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/186" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/187" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/188" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/189" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/19" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/190" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/191" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/192" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/193" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/194" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/195" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/196" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/197" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/198" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/199" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/2" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/20" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/200" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/201" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/202" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/203" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/204" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/205" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/206" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/207" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/208" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/209" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/21" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/210" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/211" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/212" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/213" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/214" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/215" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/216" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/217" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/218" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/219" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/22" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/220" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/221" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/222" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/223" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/224" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/225" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/226" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/227" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/228" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/229" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/23" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/230" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/231" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/232" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/233" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/234" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/235" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/236" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/238" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/239" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/24" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/240" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/241" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/242" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/243" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/244" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/245" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/246" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/247" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/248" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/249" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/25" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/250" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/251" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/252" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/253" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/254" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/255" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/26" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/27" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/28" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/29" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/3" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/30" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/31" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/32" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/33" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/34" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/35" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/36" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/37" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/38" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/39" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/4" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/40" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/41" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/42" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/43" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/44" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/45" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/46" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/47" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/48" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/49" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/5" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/50" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/51" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/52" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/53" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/54" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/55" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/56" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/57" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/58" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/59" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/6" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/60" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/61" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/62" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/63" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/64" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/65" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/66" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/67" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/68" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/69" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/7" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/70" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/71" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/72" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/73" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/74" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/75" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/76" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/77" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/78" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/79" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/8" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/80" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/81" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/82" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/83" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/84" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/85" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/86" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/87" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/88" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/89" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/9" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/90" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/91" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/92" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/93" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/94" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/95" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/96" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/97" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/98" />
+            <excludedPath path="/SITES/creezi.com/thoeris/check_blacklist/bad/99" />
+            <excludedPath path="/SITES/creezi.com/ressources/images" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="centos-512mb-blr1-01-tubi.co">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="centos-512mb-nyc2-01-nyc2-imgsmash">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="creezi">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="miniServer-AMS-3-hardtube.co">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="symfyCore">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tubesearch.co">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="wallpaperMania">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="xxx4u-139.59.38.224">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

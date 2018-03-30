@@ -1,0 +1,14 @@
+/*HTML Elements*/
+body {}
+
+/* Content Elements */
+.tabs-content {
+	padding-left: 120px;
+}
+/* Helper Classes */ 
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}

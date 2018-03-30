@@ -1,0 +1,65 @@
+body,ul,h1,h2,h3,h4,h5,h6,hr,span {
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+body {
+	background-color: #fff;
+}
+#nav {
+	padding: 5px;
+	background-color: #D2D2D2;
+	overflow: hidden;
+	line-height: 33px;
+	color: #000;
+	border-bottom: 1px solid #B3B3B3;
+}
+#nav a {
+	color: #404040;
+	text-decoration: none;
+}
+#nav ul {
+	list-style: none;
+}
+#logo {
+	float: left;
+	margin-right: 20px;		
+	padding: 5px;
+	font-size: 18px;
+}
+.nav_item  {
+	float: right;
+	padding: 5px;
+	margin-right: 5px;
+	font-size: 16px;
+}
+.nav_be_item  {
+	float: left;
+	margin-right: 10px;	
+	padding: 5px;
+	font-size: 16px;
+}
+#stage {
+	clear: both;
+	margin: auto;
+    min-width: 724px;
+    max-width: 981px;
+	overflow: hidden;
+}
+#qstats {
+	margin-top: 32px;
+	display: flex;
+}
+.earned {
+	font-size: 24px;
+    line-height: 32px;
+    color: black;
+    font-weight: normal;
+    padding-top: 6px;
+}
+.mark {
+	color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: normal;
+}

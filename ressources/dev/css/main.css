@@ -1,0 +1,179 @@
+body, html, #container {
+	position: absolute;
+	
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+	
+	margin: 0;
+	padding: 0;
+	
+	font-family: 'Noto Sans', sans-serif;
+}
+
+div {
+	overflow: hidden;
+}
+
+a {
+	display: inline-block;
+}
+
+#container {
+	background-color: #222;
+	z-index: 0;
+}
+
+#the404 {
+	position: absolute;
+	
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+	
+	margin: auto;
+	
+	font-size: 13em;
+    font-style: oblique;
+    color: #FFF;
+    text-align: center;
+
+    
+}
+
+#nav-upper {
+	position: absolute;
+	z-index: 999999;
+	
+	top: 0;
+	left: 0;
+	right: 0;
+	
+	height: 3em;
+	line-height: 1.5em;
+	
+	display: flex;	
+    align-items: center;
+    
+}
+#nav-logo{
+	width: 200px;
+	height: 20px;
+	
+	-webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    
+    -webkit-box-flex: 0;
+    -moz-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+#nav-tabbed{
+	-webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+#nav-settings{
+	width: 300px;
+	float: right;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+	margin-left: auto;
+}
+.v-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.flex-center {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.op-white {
+	opacity: 0.75;
+	background-color: #FFF;
+}
+.border-1x {
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+}
+.button {
+	margin: 0 0.5em 0 0.5em;
+	
+	border: 1px solid #222;
+	padding: 0.25em 0.5em 0.25em 0.5em;
+	
+	-webkit-border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	border-radius: 0.25em;
+}
+.button:hover{
+	cursor: pointer;
+}
+.login_button {
+	background-color: #B8DAB8;
+}
+.reg_button {
+	background-color: #9AB6B6;
+}
+.light-green {
+	color: #74B974;
+}
+
+#landing {
+	position: absolute;
+	z-index: 0;
+	
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: url('../images/praha.jpg');
+	background-repeat:no-repeat;
+}
+#landingMessage {
+	padding: 0.25em 0.5em 0.25em 0.5em;
+}
+#landing p {
+	margin: 0 1em 0 1em;
+}
+#main {
+	position: absolute;
+	top: 3em;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+.space {
+	padding: 0 5px 0 5px;
+}
+

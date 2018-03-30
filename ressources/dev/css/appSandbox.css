@@ -1,0 +1,51 @@
+.fullscreenApp {
+	display: none;
+	
+	justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+	
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.fullscreenApp .background{
+	position: absolute;
+	
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	
+	z-index: 999999000;
+	background-color: #000;
+	opacity: 0.85;
+}
+.fullscreenApp .window {
+	background-color: #FFF;
+	z-index: 999999999;
+	
+	padding: 1em;
+  -webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+}
+.fullscreenApp .close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	
+	background-color: #444;
+	text-align: right;
+
+	padding: 0.25em 0.75em 0.25em 0;
+
+	z-index: 999999999;
+	color: #FFF;
+}
+.fullscreenApp .close i {
+	cursor: pointer;
+}
